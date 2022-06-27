@@ -1,4 +1,6 @@
-#==#
+#=This code was supposed to only use a while loop to count through
+    and notate the order of the three numbers - I couldn't figure out how to
+    syntactically achieve that. I also neglected to allow for non-integer values.=#
 println("Please enter three positive integers: ")
 num1 = parse(Int64, readline())
 num2 = parse(Int64, readline())
